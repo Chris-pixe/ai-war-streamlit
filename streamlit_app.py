@@ -17,7 +17,7 @@ st.set_page_config(
 # Streamlit Cloud'a deploy ederken, API anahtarınızı Secrets (Gizli Değişkenler) bölümüne eklemelisiniz.
 # Örnek: GOOGLE_API_KEY = "..."
 try:
-    genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+    genai.configure(api_key=st.secrets["AIzaSyAGSJ2cKD-YH4E6gE3J15oAwWjvQiUxvZk"])
     api_calisiyor = True
 except Exception as e:
     api_calisiyor = False
